@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rakasyainz</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="ikon3.png">
+
+  <!-- Link ke Font Awesome (jika Anda ingin menggunakan ikon font juga) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- Video Background -->
+  <video class="background-video" autoplay muted loop>
+    <source src="wallpaper2.mp4" type="video/mp4">
+  </video>
+
+  <!-- Audio Background -->
+  <audio id="background-audio" autoplay loop>
+    <source src="song.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="container">
+    <div class="profile">
+      <img src="foto profiles.jpg" alt="Profile Picture" class="profile-img">
+    </div>
+    
+    <!-- Nama dan Deskripsi -->
+    <div class="intro">
+      <h1 id="name">Muhammad Rakha Syailendra</h1>
+      <p id="description">a passionate front end developer who loves coding and enthusiast.</p>
+    </div>
+
+    <!-- Link Sosial Media -->
+    <div class="links">
+      <a href="https://www.instagram.com/rakasyainz" class="link" target="_blank">
+        <img src="instagram-icon.jpg" alt="Instagram" class="social-icon">
+        Instagram
+      </a>
+      <a href="https://www.linkedin.com/in/rakasyainz/" class="link" target="_blank">
+        <img src="linkedin-icon.jpg" alt="LinkedIn" class="social-icon">
+        LinkedIn
+      </a>
+      <a href="https://github.com/rakasyailendra" class="link" target="_blank">
+        <img src="github-icon.jpg" alt="GitHub" class="social-icon">
+        GitHub
+      </a>
+      <a href="https://www.tiktok.com/@ryuniversse" class="link" target="_blank">
+        <img src="tiktok-icon.jpg" alt="TikTok" class="social-icon">
+        TikTok
+      </a>
+    </div>
+
+    <!-- Kontrol Audio -->
+<div class="audio-controls">
+  <button id="play-btn" class="audio-btn">
+    <i class="fa fa-play"></i> <!-- Ikon Play -->
+  </button>
+  <button id="pause-btn" class="audio-btn">
+    <i class="fa fa-pause"></i> <!-- Ikon Pause -->
+  </button>
+</div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
